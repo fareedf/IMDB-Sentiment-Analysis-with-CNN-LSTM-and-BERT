@@ -26,4 +26,4 @@ End-to-end sentiment analysis on the 50K IMDB movie reviews dataset (https://www
 ## Notes
 - CPU runs for CNN/LSTM are fine; BERT is slow without GPU.
 - `.gitignore` keeps large artifacts (`IMDB Dataset.csv`, `.ipynb_checkpoints`, `__pycache__`, `.venv`) out of git.
-- If you tweak hyperparameters or add metrics plots, log the new results here for recruiters.
+
