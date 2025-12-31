@@ -1,6 +1,6 @@
 # Movie Review Sentiment Classifier: CNN, LSTM, and BERT (IMDB)
 
-End-to-end sentiment analysis on the 50K IMDB movie reviews dataset. Includes two PyTorch baselines built from scratch (CNN, bi-LSTM) plus a scaffold to fine-tune `bert-base-uncased` with Hugging Face. The notebook runs the full preprocessing pipeline (clean → tokenize → vocab → index → pad) and trains/evaluates on a 70/15/15 split.
+End-to-end sentiment analysis on the 50K IMDB movie reviews dataset (https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews). Includes two PyTorch baselines built from scratch (CNN, bi-LSTM) plus a scaffold to fine-tune `bert-base-uncased` with Hugging Face. The notebook runs the full preprocessing pipeline (clean → tokenize → vocab → index → pad) and trains/evaluates on a 70/15/15 split.
 
 ## Results (from saved run)
 - CNN (3 epochs, bs=64, lr=1e-3): Val 81.69% | Test 82.32% on CPU
