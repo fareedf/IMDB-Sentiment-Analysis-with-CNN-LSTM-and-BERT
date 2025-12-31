@@ -1,0 +1,13 @@
+# Data and checkpoints
+IMDB Dataset.csv
+.ipynb_checkpoints/
+__pycache__/
+
+# Environments
+.venv/
+env/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
